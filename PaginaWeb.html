@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cargador de la página -->
+    <div id="loader"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>BIENVENIDOS</h1>
+    </header>
+
+    <section id="about" class="scroll-fade">   
+        <br><br><br>
+        <h2>Sobre mí</h2>
+        <p class="texto">Hola, soy Aimar Esqueta, también conocido como Mochu2004, un desarrollador apasionado por crear soluciones innovadoras. 
+            Aquí encontrarás algunos de los proyectos en los que he trabajado por mi propia cuenta.
+        </p>
+        <img src="imagenes/mochu2-removebg-preview.png" alt="Mochu2004" class="center-image">
+    </section>
+
+    <section id="projects" class="scroll-fade">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <a href="PAGINA WEB UFC/paginaweb.html"><img src="imagenes/logo.png" alt="Locura UFC"></a>
+            <p class="texto">Locura UFC es un sitio web que se centra en proporcionar contenido diverso e interactivo 
+                sobre la UFC, con secciones para seguir eventos principales, rankings, podcasts y más. 
+                La presencia de redes sociales y un blog asegura que el contenido esté constantemente actualizado, 
+                dirigido a fanáticos que buscan mantenerse informados sobre las últimas noticias y análisis de la UFC.
+            </p>
+            
+        </div>
+        <div class="project">
+            <img src="imagenes/Sin título-5.png"" alt="VAARI">
+            <p class="texto">VAARI es una app para la gestión de unidades de día de ancianos. Además de ser una
+                app que ayuda a la gestión de los voluntarios y trabajadores para un mejor cuidado de
+                nuestros mayores, VAARI a su vez es una agenda digital y una app de comunicación en la
+                que podremos contar con diferentes funcionalidades para siempre estar en contacto con
+                familiares y trabajadores para que nuestros mayores se sientan siempre arropados y
+                cuidados.
+            </p>
+        </div>
+        <!-- Añadir más proyectos aquí -->
+    </section>
+
+    <section id="skills" class="scroll-fade">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Inteligencia Artificial</li>
+            <li>Big Data</li>
+            <!-- Añadir más habilidades aquí -->
+        </ul>
+    </section>
+
+    <section id="contact" class="scroll-fade">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+        <!-- Sección de redes sociales -->
+    <div class="social-icons">
+        <a href="https://www.instagram.com/aimaresqueta_08/"><img src="imagenes/instagram-icon.png" alt="Instagram"></a>
+        <a href="https://twitter.com/aimaresqueta" ><img src="imagenes/twitter-icon.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/aimar-esqueta-albert-3a830827b/?originalSubdomain=es"><img src="imagenes/linkedin-icon.png" alt="LinkedIn"></a>
+        <a href="https://github.com/mochu2004"><img src="imagenes/github-icon.png" alt="GitHub"></a>
+    </div>
+    </section>
+    
+    
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      // Inicializa EmailJS con tu public key
+      emailjs.init("Omp9Q27S0cACTPZB1"); 
+   })();
+
+   // Manejo del formulario
+   document.getElementById('contact-form').addEventListener('submit', function(event) {
+       event.preventDefault(); // Evita el comportamiento predeterminado del formulario
+
+       // Enviar el formulario con EmailJS
+       emailjs.sendForm('service_o720yll', 'template-vx04s0r', this)
+           .then(function(response) {
+               console.log('SUCCESS!', response.status, response.text); // Éxito
+               alert('El correo fue enviado con éxito.');
+           }, function(error) {
+               console.error('FAILED...', error); // Error
+               alert('Error al enviar el correo. Revisa la consola para más detalles.');
+           });
+   });
+</script>
+
+
+
+    <footer>
+        <p>© 2024 Aimar Esqueta. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <button id="back-to-top">↑</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
