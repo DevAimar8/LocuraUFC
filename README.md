@@ -46,7 +46,7 @@ Este repositorio se conserva como **referencia histórica** de mi evolución com
 **Aimar Esqueta Albert**  
 [LinkedIn](https://www.linkedin.com/in/aimar-esqueta-albert-a0a33b302)  
 [GitHub](https://github.com/DevAimar8)
-
+Contacto: **aimaresquetaalbert@gmail.com**
 ---
 
 ## 📸 Capturas
