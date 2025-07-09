@@ -1,0 +1,263 @@
+body {
+    background-image: url("Imágenes/captura3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  td {
+    border-bottom-style: outset;
+    border-top-style: outset;
+    padding: 8px;
+    text-align: center;
+    text-decoration: white;
+    color: white;
+    font-size: large;
+  }
+  h1 {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  }
+  .breadcrumbs {
+    padding: 10px;
+    margin-top: 115px;
+  }
+  
+  .breadcrumbs a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  /* Estilos generales del menú de navegación */
+  nav {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100; /* Para que esté por encima del contenido */
+    display: block;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .cont-menu li a {
+    color: darkgoldenrod;
+  }
+  /* Estilos para el ícono del Menú */
+  .icono-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el contenedor del Menú */
+  .cont-menu{
+    background-color: black;
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+  }
+  
+  /* Estilos por agregar en JavaScript */
+  .active{
+    transform: translate(-600px);
+  }
+  
+  /* Estilos para el listado del Menú */
+  .cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+  }
+  
+  .cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+  
+  .cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: black;
+  }
+      .animacion:hover {
+        scale: 110%;
+      }
+
+      footer {
+        color: white;
+        float: right;
+      }
+      footer a {
+        margin-right: 20px;
+      }
+      img:hover {
+        scale: 120%;
+      }
+      @media only screen and (max-width: 768px) {
+        body {
+          background-image: url("Imágenes/captura3.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          margin: 0;
+          padding: 0;
+      }
+      
+      table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+      
+      td {
+          border-bottom-style: outset;
+          border-top-style: outset;
+          padding: 8px;
+          text-align: center;
+          text-decoration: white; /* Este atributo no es necesario */
+          color: white;
+          font-size: large;
+      }
+      td img {
+        width: 100px;
+        height: 110px;
+      }
+      figcaption {
+        font-size: x-small;
+      }
+      h1 {
+          color: #fff;
+          text-align: center;
+          justify-content: center;
+          font-size: x-large;
+      }
+      
+      .breadcrumbs {
+          padding: 10px;
+          margin-top: 60px; /* Ajuste para dispositivos móviles */
+      }
+      
+      .breadcrumbs a {
+          text-decoration: none;
+          color: #000;
+      }
+      
+      .breadcrumbs a:hover {
+          text-decoration: underline;
+      }
+      
+      /* Estilos generales del menú de navegación */
+      nav {
+          text-align: left;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 100; /* Para que esté por encima del contenido */
+          display: block;
+      }
+      
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      
+      .cont-menu li a {
+          color: darkgoldenrod;
+      }
+      
+      /* Estilos para el ícono del Menú */
+      .icono-menu {
+          margin: 20px; /* Ajuste para dispositivos móviles */
+          position: relative;
+          z-index: 10;
+      }
+      
+      .icono-menu img {
+          vertical-align: top;
+          width: 15px; /* Ajuste para dispositivos móviles */
+          cursor: pointer;
+      }
+      
+      /* Estilos para el contenido del Menú */
+      .cont-menu {
+          background-color: black;
+          box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+          width: 100%; /* Ajuste para dispositivos móviles */
+          height: 100vh;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transition: all .5s ease;
+      }
+      
+      /* Estilos por agregar en JavaScript */
+      .active {
+          transform: translate(-100%); /* Ajuste para dispositivos móviles */
+      }
+      
+      /* Estilos para el listado del Menú */
+      .cont-menu ul {
+          padding: 80px 0px 20px 0px; /* Ajuste para dispositivos móviles */
+          list-style: none;
+      }
+      
+      .cont-menu ul li {
+          color: white;
+          display: block;
+          font-size: 18px; /* Ajuste para dispositivos móviles */
+          text-decoration: none;
+          padding: 10px;
+          cursor: pointer;
+      }
+      
+      .cont-menu ul li:hover {
+          background-color: rgb(228, 228, 228);
+          color: black;
+      }
+      
+      .animacion:hover {
+          scale: 110%;
+      }
+      
+      footer {
+          color: white;
+          float: right;
+          text-align: center; /* Alineado al centro para dispositivos móviles */
+      }
+      
+      footer a {
+          margin-right: 10px; /* Ajuste para dispositivos móviles */
+      }
+      
+      img:hover {
+          scale: 120%;
+      }
+      
+      }

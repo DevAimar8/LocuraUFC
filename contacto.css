@@ -1,0 +1,255 @@
+body {
+    background-image: url("Imágenes/wallpaper-967836_1280.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* Estilo básico del formulario */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 30px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0px;
+  }
+  
+  
+  /* Estilo de los campos de entrada */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  
+  /* Estilo del botón de envío */
+  input[type="submit"] {
+    background-color: #f00000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .breadcrumbs {
+    padding: 10px;
+    margin-top: 115px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+ /* Estilos generales del menú de navegación */
+ nav {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Para que esté por encima del contenido */
+  display: block;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont-menu li a {
+  color: darkgoldenrod;
+}
+/* Estilos para el ícono del Menú */
+.icono-menu{
+  margin: 40px 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.icono-menu img{
+  vertical-align: top;
+  width: 40px;
+  cursor: pointer;
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+  background-color: black;
+  box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s ease;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+  transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.cont-menu ul li{
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+  background-color: rgb(228,228,228);
+  color: black;
+}
+      footer {
+        color: white;
+        float: right;
+      }
+      footer a {
+        margin-right: 20px;
+      }
+      img:hover {
+        scale: 120%;
+      }
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("Imágenes/wallpaper-967836_1280.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #f00000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.breadcrumbs {
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont-menu li a {
+  color: darkgoldenrod;
+}
+/* Estilos para el ícono del Menú */
+.icono-menu{
+  margin: 40px 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.icono-menu img{
+  vertical-align: top;
+  width: 15px;
+  cursor: pointer;
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+  background-color: black;
+  box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s ease;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+  transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.cont-menu ul li{
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+  background-color: rgb(228,228,228);
+  color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+}
+  
+  
+  
+  

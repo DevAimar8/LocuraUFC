@@ -1,0 +1,297 @@
+body {
+  background-image: url("Imágenes/captura3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border-bottom-style: outset;
+  border-top-style: outset;
+  padding: 8px;
+  text-align: center;
+  text-decoration: white;
+  color: white;
+  font-size: large;
+}
+h1 {
+color: #fff;
+margin-top: 0px;
+}
+
+ /* Estilos generales del menú de navegación */
+ nav {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Para que esté por encima del contenido */
+  display: block;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont-menu li a {
+  color: darkgoldenrod;
+}
+/* Estilos para el ícono del Menú */
+.icono-menu{
+  margin: 40px 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.icono-menu img{
+  vertical-align: top;
+  width: 40px;
+  cursor: pointer;
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+  background-color: black;
+  box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+  width: 400px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .5s ease;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+  transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.cont-menu ul li{
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+  background-color: rgb(228,228,228);
+  color: black;
+}
+    .breadcrumbs {
+      padding: 10px;
+      margin-top: 115px;
+  }
+  
+  .breadcrumbs a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .breadcrumbs a:hover {
+      text-decoration: underline;
+  }
+    aside {
+      color: #fff;
+      font-size: medium;
+      display: block;
+      margin-top: 220px;
+    }
+    aside p {
+      color: #fff;
+      font-size: 25px;
+      font:oblique;
+    }
+    .god:hover {
+      background-color: darkgray;
+      opacity: 0.9;
+      transition: opacity 0.75s ease-in-out;
+      transform: scale(1.004);
+      filter: blur(2px);
+      scale: 110%;
+    }
+
+    footer {
+      color: white;
+      float: right;
+    }
+    footer a {
+      margin-right: 20px;
+    }
+    footer img:hover {
+      scale: 120%;
+    }
+    .icono-menu img:hover {
+      scale: 120%;
+    }
+    @media only screen and (max-width: 768px) {
+      body {
+        background-image: url("Imágenes/captura3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th {
+        border-bottom-style: outset;
+        border-top-style: outset;
+        padding: 8px;
+        text-align: center;
+        text-decoration: white; /* Esto no tiene un efecto visible en el texto */
+        color: white;
+        font-size: large;
+      }
+      th aside p {
+        font-size: small;
+      }
+      th img {
+        width: 120px;
+        height: 140px;
+      }
+      h1 {
+        color: #fff;
+        margin-top: 0; /* No es necesario agregar 'px' a valores 0 */
+        font-size: large;
+      }
+      
+      /* Estilos generales del menú de navegación */
+      nav {
+        text-align: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        display: block;
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      .cont-menu li a {
+        color: darkgoldenrod;
+      }
+      
+      /* Estilos para el ícono del Menú */
+      .icono-menu {
+        margin: 20px;
+        position: relative;
+        z-index: 10;
+      }
+      
+      .icono-menu img {
+        vertical-align: top;
+        width: 15px;
+        cursor: pointer;
+      }
+      
+      /* Estilos para el contenedor del Menú */
+      .cont-menu {
+        background-color: black;
+        box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .5s ease;
+      }
+      
+      /* Estilos por agregar en JavaScript */
+      .active {
+        transform: translate(-600px);
+      }
+      
+      /* Estilos para el listado del Menú */
+      .cont-menu ul {
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+      }
+      
+      .cont-menu ul li {
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10px 50px;
+        cursor: pointer;
+      }
+      
+      .cont-menu ul li:hover {
+        background-color: rgb(228, 228, 228);
+        color: black;
+      }
+      
+      .breadcrumbs {
+        padding: 10px;
+        margin-top: 60px; /* Ajuste para dispositivos móviles */
+      }
+      
+      .breadcrumbs a {
+        text-decoration: none;
+        color: black; /* Cambié el color para mejorar la visibilidad */
+      }
+      
+      .breadcrumbs a:hover {
+        text-decoration: underline;
+      }
+      
+      aside {
+        color: #fff;
+        font-size: medium;
+        display: block;
+        margin-top: 220px;
+      }
+      
+      aside p {
+        color: #fff;
+        font-size: 25px;
+        font-style: oblique; /* Corregido el estilo de la fuente */
+      }
+      
+      .god:hover {
+        background-color: darkgray;
+        opacity: 0.9;
+        transition: opacity 0.75s ease-in-out;
+        transform: scale(1.004);
+        filter: blur(2px);
+        scale: 110%;
+      }
+      
+      footer {
+        color: white;
+        float: right;
+      }
+      
+      footer a {
+        margin-right: 20px;
+      }
+      
+      img:hover {
+        scale: 120%;
+      }
+      
+    }
