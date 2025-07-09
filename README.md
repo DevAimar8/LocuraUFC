@@ -25,8 +25,8 @@ Esta web ofrece una experiencia completa para los seguidores del UFC, mostrando 
 ## Estructura del proyecto
 
 - `index.html` - Página principal que muestra el Main Event y enlaces principales.
-- `css/` - Carpeta que contiene todos los estilos CSS.
-- `js/` - Carpeta con scripts JavaScript para funcionalidades interactivas.
+- `css/` - Todos los estilos CSS.
+- `js/` - Scripts JavaScript para funcionalidades interactivas.
 - `img/` - Imágenes usadas en la web (logos, fotos de eventos, etc).
 - Otros archivos y carpetas según se necesite.
 
