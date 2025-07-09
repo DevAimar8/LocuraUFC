@@ -4,12 +4,11 @@ LocuraUFC es una página web dedicada a los fanáticos del UFC donde se recopila
 
 ## Descripción
 
-Esta web ofrece una experiencia completa para los seguidores del UFC, mostrando información relevante como el Main Event del próximo evento numerado, rankings actualizados, resúmenes de peleas, acceso a podcasts y un blog personal con noticias y análisis. Es un proyecto personal que desarrollé en 2023 como mi primera experiencia en desarrollo web.
+Esta web ofrece una experiencia completa para los seguidores del UFC, mostrando información relevante como el Main Event del próximo evento numerado, rankings, resúmenes de peleas, acceso a podcasts y un blog personal con noticias y análisis. Es un proyecto personal que desarrollé en 2023 como mi primera experiencia en desarrollo web y actualmente se encunetra sin actualizar. 
 
 ## Funcionalidades principales
 
-- **Inicio:** Presenta el Main Event del próximo evento numerado de UFC.
-- **Entradas:** Enlace directo a la página oficial para compra de entradas.
+- **Inicio:** Presenta el Main Event del próximo evento numerado de UFC con enlace directo a la página oficial para compra de entradas.
 - **Resúmenes:** Resúmenes detallados de los mejores eventos numerados y Fight Nights.
 - **Rankings:** Rankings actualizados de todas las categorías de peso y el ranking P4P (pound-for-pound).
 - **Podcasts:** Acceso a podcasts seleccionados sobre UFC.
@@ -40,13 +39,12 @@ Esta web ofrece una experiencia completa para los seguidores del UFC, mostrando 
 ## Cómo ejecutar el proyecto localmente
 
 1. Clona este repositorio en tu máquina:
-´´´ git clone https://github.com/DevAimar8/LocuraUFC.git
 2. Abre `index.html` con tu navegador preferido.
 3. Navega por las distintas secciones para explorar el contenido.
 
 ## Contacto
 
-Para dudas o sugerencias, puedes contactarme a través de [tu correo electrónico o redes sociales].
+Para dudas o sugerencias, puedes contactarme a través de aimaresquetaalbert@gmail.com
 
 ---
 
